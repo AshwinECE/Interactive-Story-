@@ -15,6 +15,10 @@
 		2B0CD5B51EB66F0000C011A0 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CD5B41EB66F0000C011A0 /* Story.swift */; };
 		2B0CD5B71EB6713C00C011A0 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CD5B61EB6713C00C011A0 /* Page.swift */; };
 		2B0CD5B91EB680C900C011A0 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0CD5B81EB680C900C011A0 /* PageController.swift */; };
+		2B6A8AE01EBA59740042569F /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A8ADD1EBA59740042569F /* HappyEnding.wav */; };
+		2B6A8AE11EBA59740042569F /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A8ADE1EBA59740042569F /* Ominous.wav */; };
+		2B6A8AE21EBA59740042569F /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A8ADF1EBA59740042569F /* PageTurn.wav */; };
+		2B6A8AE41EBA5A390042569F /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A8AE31EBA5A390042569F /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		2B0CD5B41EB66F0000C011A0 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		2B0CD5B61EB6713C00C011A0 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		2B0CD5B81EB680C900C011A0 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		2B6A8ADD1EBA59740042569F /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		2B6A8ADE1EBA59740042569F /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		2B6A8ADF1EBA59740042569F /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		2B6A8AE31EBA5A390042569F /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +72,25 @@
 				2B0CD5A41EB6463E00C011A0 /* ViewController.swift */,
 				2B0CD5A61EB6463E00C011A0 /* Main.storyboard */,
 				2B0CD5A91EB6463E00C011A0 /* Assets.xcassets */,
+				2B6A8ADC1EBA59360042569F /* Resources */,
 				2B0CD5AB1EB6463E00C011A0 /* LaunchScreen.storyboard */,
 				2B0CD5AE1EB6463E00C011A0 /* Info.plist */,
 				2B0CD5B41EB66F0000C011A0 /* Story.swift */,
 				2B0CD5B61EB6713C00C011A0 /* Page.swift */,
 				2B0CD5B81EB680C900C011A0 /* PageController.swift */,
+				2B6A8AE31EBA5A390042569F /* Audio.swift */,
 			);
 			path = InteractiveStory;
+			sourceTree = "<group>";
+		};
+		2B6A8ADC1EBA59360042569F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B6A8ADD1EBA59740042569F /* HappyEnding.wav */,
+				2B6A8ADE1EBA59740042569F /* Ominous.wav */,
+				2B6A8ADF1EBA59740042569F /* PageTurn.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6A8AE11EBA59740042569F /* Ominous.wav in Resources */,
 				2B0CD5AD1EB6463E00C011A0 /* LaunchScreen.storyboard in Resources */,
 				2B0CD5AA1EB6463E00C011A0 /* Assets.xcassets in Resources */,
+				2B6A8AE01EBA59740042569F /* HappyEnding.wav in Resources */,
+				2B6A8AE21EBA59740042569F /* PageTurn.wav in Resources */,
 				2B0CD5A81EB6463E00C011A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6A8AE41EBA5A390042569F /* Audio.swift in Sources */,
 				2B0CD5A51EB6463E00C011A0 /* ViewController.swift in Sources */,
 				2B0CD5A31EB6463E00C011A0 /* AppDelegate.swift in Sources */,
 				2B0CD5B71EB6713C00C011A0 /* Page.swift in Sources */,
@@ -314,6 +338,7 @@
 				2B0CD5B31EB6463E00C011A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
